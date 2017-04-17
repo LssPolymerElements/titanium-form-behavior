@@ -1,5 +1,5 @@
 {
-  "name": "${{componentName}}",
+  "name": "titanium-form-behavior",
   "version": "1.0.0",
   "keywords": [
     "polymer",
@@ -7,13 +7,13 @@
   ],
   "authors": [
     "Aaron Drabeck <aaron-drabeck@leavitt.com>",
-	"Anthony Thomas <anthony-thomas@leavitt.com>",
-	"Wyatt Morrow <wyatt-morrow@leavitt.com>",
-	"Kasey Hinton <kasey-hinton@leavitt.com>",
-	"Shawn Johnson <shawn-johnson@leavitt.com>"
+    "Anthony Thomas <anthony-thomas@leavitt.com>",
+    "Wyatt Morrow <wyatt-morrow@leavitt.com>",
+    "Kasey Hinton <kasey-hinton@leavitt.com>",
+    "Shawn Johnson <shawn-johnson@leavitt.com>"
   ],
-  "main": "${{componentName}}.html",
-  "description": "${{componentDescription}}",
+  "main": "titanium-form-behavior.html",
+  "description": "titanium-form-behavior is a polymer behavior that provides some typical scrolling and key press handling abilities",
   "license": "MIT",
   "ignore": [
     "**/.*",

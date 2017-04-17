@@ -1,11 +1,11 @@
-@component("${{componentName}}")
-class ${{componentNamePascal}} extends polymer.Base {
+@component("titanium-form-behavior")
+class TitaniumFormBehavior extends polymer.Base {
     /**value parameter.*/
     @property({
-		type:String,
-		notify: true,
-	})
+        type: String,
+        notify: true,
+    })
     value: string;
 
 }
-${{componentNamePascal}}.register();
+TitaniumFormBehavior.register();
