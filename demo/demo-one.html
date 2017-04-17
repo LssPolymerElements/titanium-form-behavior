@@ -1,16 +1,39 @@
 <link rel="import" href="../../polymer/polymer.html">
 <link rel="import" href="../../polymer-ts/polymer-ts.html">
+<link rel="import" href="../../iron-form/iron-form.html">
+<link rel="import" href="../../paper-input/paper-input.html">
+<link rel="import" href="../../paper-button/paper-button.html">
+<link rel="import" href="../../paper-dropdown-menu/paper-dropdown-menu.html">
+<link rel="import" href="../../paper-listbox/paper-listbox.html">
+<link rel="import" href="../../paper-item/paper-item.html">
 
 <link rel="import" href="../titanium-form-behavior.html">
 
 <dom-module id="demo-one">
     <template>
         <style>
-
+            paper-input {
+                padding-bottom: 300px;
+            }
+            /*Lots of padding so the page is long enough to demonstrate scrolling*/
         </style>
         <h1>titanium-form-behavior Demo</h1>
-        <titanium-form-behavior></titanium-form-behavior>
+        <form is="iron-form" id="form">
+            <paper-dropdown-menu>
+                <paper-listbox class="dropdown-content">
+                    <paper-item>1</paper-item>
+                    <paper-item>2</paper-item>
+                    <paper-item>3</paper-item>
+                    <paper-item>4</paper-item>
+                </paper-listbox>
+            </paper-dropdown-menu>
+            <paper-input required label=" I am Required"></paper-input>
+            <paper-input label="I am Not required"></paper-input>
+            <paper-input required label="I am also Required"></paper-input>
+            <paper-button id="scrollToTop">Scroll to Top</paper-button>
+            <paper-button id="submit">Submit</paper-button>
+        </form>
     </template>
-    <script src="demo-one.js">
+    <script src="demo-one.js ">
     </script>
 </dom-module>
