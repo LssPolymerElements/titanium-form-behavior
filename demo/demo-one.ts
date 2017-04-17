@@ -15,7 +15,7 @@ class DemoOne extends polymer.Base {
 
     @listen('submit.tap')
     formSubmitted() {
-        if (this.paperDropdownEnterPressed) {
+        if (this.paperDropdownEnterPressed()) {
             return;
         }
         let valid = this.$.form.validate();

@@ -6,6 +6,7 @@
 <link rel="import" href="../../paper-dropdown-menu/paper-dropdown-menu.html">
 <link rel="import" href="../../paper-listbox/paper-listbox.html">
 <link rel="import" href="../../paper-item/paper-item.html">
+<link rel="import" href="../../iron-a11y-keys/iron-a11y-keys.html">
 
 <link rel="import" href="../titanium-form-behavior.html">
 
@@ -18,6 +19,7 @@
             /*Lots of padding so the page is long enough to demonstrate scrolling*/
         </style>
         <h1>titanium-form-behavior Demo</h1>
+        <iron-a11y-keys id="a11y" target="[[target]]" keys="enter" on-keys-pressed="formSubmitted"></iron-a11y-keys>
         <form is="iron-form" id="form">
             <paper-dropdown-menu>
                 <paper-listbox class="dropdown-content">

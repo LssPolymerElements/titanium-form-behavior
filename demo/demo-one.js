@@ -24,7 +24,7 @@ var DemoOne = (function (_super) {
         this.scrollToTop("paper-input");
     };
     DemoOne.prototype.formSubmitted = function () {
-        if (this.paperDropdownEnterPressed) {
+        if (this.paperDropdownEnterPressed()) {
             return;
         }
         var valid = this.$.form.validate();
