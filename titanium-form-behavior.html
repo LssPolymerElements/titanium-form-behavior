@@ -3,10 +3,11 @@
 <!--
 `<titanium-form-behavior>` titanium-form-behavior is a polymer behavior that provides some typical scrolling and key press handling abilities.
 
-	example:
-    <body>
-      <titanium-form-behavior></titanium-form-behavior>
+Provides a method called `scrollToError(selector)`, which will scroll to the first element that 1) matches 'selector', 2) has an attribute of `invalid` (this will be applied to elements in an iron-form when validated).
 
+Provides a method called `scrollToTop`(selector), which will scroll to show the top of the first element that matches `selector`. This is useful when navigating different pages with something like iron-pages, as the default will leave the user scrolled to the same position as the previously active page.
+
+Provides a method called `paperDropdownEnterPressed()` which will return true if a paper-dropdown is the focused element when enter is pressed. This allows you to override enter key behavior when a paper-dropdown is focused to get results closer to how a native select would work in a form.
 -->
 <dom-module id="titanium-form-behavior">
     <template>
