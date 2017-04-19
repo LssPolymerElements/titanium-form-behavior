@@ -1,5 +1,5 @@
 {
-  "name": "${{componentName}}",
+  "name": "titanium-form-behavior",
   "version": "1.0.0",
   "keywords": [
     "polymer",
@@ -7,13 +7,13 @@
   ],
   "authors": [
     "Aaron Drabeck <aaron-drabeck@leavitt.com>",
-	"Anthony Thomas <anthony-thomas@leavitt.com>",
-	"Wyatt Morrow <wyatt-morrow@leavitt.com>",
-	"Kasey Hinton <kasey-hinton@leavitt.com>",
-	"Shawn Johnson <shawn-johnson@leavitt.com>"
+    "Anthony Thomas <anthony-thomas@leavitt.com>",
+    "Wyatt Morrow <wyatt-morrow@leavitt.com>",
+    "Kasey Hinton <kasey-hinton@leavitt.com>",
+    "Shawn Johnson <shawn-johnson@leavitt.com>"
   ],
-  "main": "${{componentName}}.html",
-  "description": "${{componentDescription}}",
+  "main": "titanium-form-behavior.html",
+  "description": "titanium-form-behavior is a polymer behavior that provides some typical scrolling and key press handling abilities",
   "license": "MIT",
   "ignore": [
     "**/.*",
@@ -24,13 +24,21 @@
   ],
   "dependencies": {
     "polymer": "Polymer/polymer#^1.1.0",
-    "polymer-ts": "^0.1.29"
+    "polymer-ts": "^0.1.29",
+    "paper-listbox": "PolymerElements/paper-listbox#^1.1.2"
   },
   "devDependencies": {
     "web-component-tester": "^4.0.0",
     "webcomponentsjs": "webcomponents/webcomponentsjs#^0.7.0",
     "iron-component-page": "PolymerElements/iron-component-page#^1.1.8",
     "polymer-ts": "^0.1.29",
-    "iron-demo-helpers": "^1.2.5"
+    "iron-demo-helpers": "^1.2.5",
+    "paper-input": "PolymerElements/paper-input#^1.1.23",
+    "iron-form": "PolymerElements/iron-form#^1.1.4",
+    "paper-button": "PolymerElements/paper-button#^1.0.14",
+    "paper-dropdown-menu": "PolymerElements/paper-dropdown-menu#^1.5.0",
+    "paper-listbox": "PolymerElements/paper-listbox#^1.1.2",
+    "paper-item": "PolymerElements/paper-item#^1.2.1",
+    "iron-a11y-keys": "PolymerElements/iron-a11y-keys#^1.0.7"
   }
 }

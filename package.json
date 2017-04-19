@@ -1,8 +1,8 @@
 {
-  "name": "${{componentName}}",
+  "name": "titanium-form-behavior",
   "version": "1.0.0",
   "description": "",
-  "main": "${{componentName}}",
+  "main": "titanium-form-behavior",
   "dependencies": {},
   "devDependencies": {
     "browser-sync": "^2.18.2",
